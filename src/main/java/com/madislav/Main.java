@@ -48,7 +48,7 @@ public class Main {
 
         initLocale();
         printGreeting();
-        
+
         log.info("END");
 
     }
