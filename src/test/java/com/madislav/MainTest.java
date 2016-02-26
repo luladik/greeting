@@ -27,10 +27,11 @@ public class MainTest {
 
     @Test
     public void testInitLocale() {
-        Locale locale = new Locale("ru", "RU");
-        assertEquals(locale.toString(), "ru_RU");
-        locale = new Locale("en", "US");
-        assertEquals(locale.toString(), "en_US");
+        Locale locale = Main.locale;
+        if (Locale.getDefault().toString().equals("en_US"))
+            assertEquals(locale, new Locale.Builder().setLanguage("en").setRegion("US").build());
+        if (Locale.getDefault().toString().equals("ru_RU"))
+            assertEquals(locale, new Locale.Builder().setLanguage("ru").setRegion("RU").build());
     }
 
     @Test

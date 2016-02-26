@@ -10,7 +10,7 @@ public class Main {
 
     private static final Logger log = Logger.getLogger(Main.class);
     public static ResourceBundle messages;
-    private static Locale locale;
+    public static Locale locale;
 
     public static void initLocale() {
 
