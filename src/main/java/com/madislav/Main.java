@@ -1,47 +1,38 @@
 package com.madislav;
 
-import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import java.util.Calendar;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
 public class Main {
 
     private static final Logger log = Logger.getLogger(Main.class);
-    private static ResourceBundle messages;
+    public static ResourceBundle messages;
     private static Locale locale;
 
-    private static void initLocale() {
+    public static void initLocale() {
 
-            locale = Locale.getDefault();
-            log.info("System locale: " + locale);
-
-            messages = ResourceBundle.getBundle("messages", locale);
+        locale = Locale.getDefault();
+        log.info("System locale: " + locale);
+        messages = ResourceBundle.getBundle("messages", locale);
 
     }
 
     public static void printGreeting() {
-        try {
-            SimpleDateFormat parser = new SimpleDateFormat("HH:mm");
-            Date now = parser.parse(parser.format(new Date()));
+
+            int now = Calendar.getInstance().get(Calendar.HOUR_OF_DAY);
             log.info("Current date initialized");
 
-            if (parser.parse("06:00").before(now) && parser.parse("09:00").after(now)) {
+            if (now >= 6 && now < 9) {
                 System.out.println(messages.getString("morning"));
-            } else if (parser.parse("09:00").before(now) && parser.parse("19:00").after(now)) {
+            } else if (now >= 9 && now < 19) {
                 System.out.println(messages.getString("day"));
-            } else if (parser.parse("19:00").before(now) && parser.parse("23:00").after(now)) {
+            } else if (now >= 19 && now < 23) {
                 System.out.println(messages.getString("evening"));
             } else
                 System.out.println(messages.getString("night"));
-        } catch (ParseException e) {
-            log.log(Level.ERROR, "Exception in greeting method: ", e);
-        }
-
     }
 
     public static void main(String[] args) {

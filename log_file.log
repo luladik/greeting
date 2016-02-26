@@ -1,36 +1,3 @@
-2016-02-24 06:51:39 INFO  Main:25 - System locale: en_US
-2016-02-24 06:51:39 INFO  Main:27 - Current date initialized
-2016-02-24 06:51:39 INFO  Main:47 - Everything went well!
-2016-02-24 06:54:25 INFO  Main:25 - System locale: ru__#Cyrl
-2016-02-24 06:54:25 INFO  Main:27 - Current date initialized
-2016-02-24 06:54:25 INFO  Main:47 - Everything went well!
-2016-02-24 06:55:00 INFO  Main:25 - System locale: ru_RU_#Cyrl
-2016-02-24 06:55:00 INFO  Main:27 - Current date initialized
-2016-02-24 06:55:00 INFO  Main:47 - Everything went well!
-2016-02-24 06:55:43 INFO  Main:25 - System locale: ru_RU
-2016-02-24 06:55:43 INFO  Main:27 - Current date initialized
-2016-02-24 06:55:43 INFO  Main:47 - Everything went well!
-2016-02-24 06:56:08 INFO  Main:25 - System locale: 
-2016-02-24 06:56:08 INFO  Main:27 - Current date initialized
-2016-02-24 06:56:08 INFO  Main:47 - Everything went well!
-2016-02-24 08:46:45 INFO  Main:21 - System locale: en_US
-2016-02-24 08:46:45 INFO  Main:31 - Current date initialized
-2016-02-24 08:46:45 INFO  Main:52 - END
-2016-02-24 08:48:25 INFO  Main:21 - System locale: en_US
-2016-02-24 08:48:25 INFO  Main:31 - Current date initialized
-2016-02-24 08:48:25 INFO  Main:52 - END
-2016-02-24 08:51:51 INFO  Main:21 - System locale: en_US
-2016-02-24 08:51:51 INFO  Main:31 - Current date initialized
-2016-02-24 08:51:51 INFO  Main:52 - END
-2016-02-24 08:52:46 INFO  Main:21 - System locale: en_US
-2016-02-24 08:52:46 INFO  Main:31 - Current date initialized
-2016-02-24 08:52:46 INFO  Main:52 - END
-2016-02-24 09:29:11 INFO  Main:21 - System locale: en_US
-2016-02-24 09:29:11 INFO  Main:31 - Current date initialized
-2016-02-24 09:29:11 INFO  Main:52 - END
-2016-02-24 10:42:15 INFO  Main:21 - System locale: ru_RU
-2016-02-24 10:42:15 INFO  Main:31 - Current date initialized
-2016-02-24 10:42:15 INFO  Main:52 - END
-2016-02-24 10:42:26 INFO  Main:21 - System locale: en_US
-2016-02-24 10:42:26 INFO  Main:31 - Current date initialized
-2016-02-24 10:42:26 INFO  Main:52 - END
+2016-02-26 22:46:34 INFO  Main:18 - System locale: en_US
+2016-02-26 22:46:34 INFO  Main:26 - Current date initialized
+2016-02-26 22:46:34 INFO  Main:43 - END
